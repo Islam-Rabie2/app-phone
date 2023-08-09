@@ -1,0 +1,352 @@
+@import url("https://fonts.googleapis.com/css2?family=Lalezar&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Tajawal:wght@300;700&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Tajawal", sans-serif;
+    font-size: 10px;
+}
+
+/* Navbar styling */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 10vh;
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 0 5rem;
+}
+
+nav .logo {
+    display: flex;
+    font-size: 2rem;
+    align-items: center;
+}
+
+nav .fa-bars {
+    display: none;
+}
+
+nav .logo i {
+    color: #6e0aef;
+    padding-left: 0.75rem;
+}
+
+nav .logo h4 {
+    font-family: "lalezar", cursive;
+
+}
+
+nav .nav-items {
+    display: flex;
+    list-style-type: none;
+}
+
+nav .nav-items .nav-item {
+    padding: 0 1rem;
+}
+
+nav .nav-link {
+    text-decoration: none;
+    color: #4e547e;
+    font-size: 1rem;
+    color: black;
+}
+
+nav .nav-link:hover {
+    color: #6e0aef;
+}
+
+/* hero section */
+
+.hero {
+    background-color: #f8f7fc;
+}
+
+.hero-section {
+    max-width: 1300px;
+    height: 90vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    padding: 0 5rem;
+}
+
+.hero-section h4 {
+    color: #6e0aef;
+    font-size: 1rem;
+    margin-bottom: 0.8rem;
+}
+
+.hero-section .content h1 {
+    font-size: 1.3rem;
+    margin-bottom: 0.8rem;
+
+}
+
+.hero-section p {
+    color: rgb(29, 29, 29);
+    font-size: 0.9rem;
+}
+
+.hero-section p span {
+    color: #6e0aef;
+}
+
+.hero-section .btn {
+    width: 8rem;
+    margin-top: 1.2rem;
+    border-radius: 0.7rem;
+    outline: none;
+    border: none;
+    padding: 0.8rem 0.8rem;
+    background-color: #6e0aef;
+}
+
+.btn:hover {
+    background-color: #8130eb;
+    cursor: pointer;
+}
+
+.btn a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 1rem;
+}
+
+/* Features section */
+section.features {
+    padding: 5rem 0;
+    background-color: #f8f7fc;
+}
+
+section.features .features-section {
+    max-width: 1366px;
+    margin: 0 auto;
+    padding: 0 5rem;
+}
+
+.features-section h4 {
+    color: #6e0aef;
+    font-size: 1.6rem;
+    margin-bottom: 2rem;
+}
+
+.features-section .qualities {
+    display: flex;
+    justify-content: space-between;
+}
+
+.features-section .qualities .quality {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #ffffff;
+    padding: 1.5rem;
+    max-width: 13rem;
+    border-radius: 1rem;
+    height: 16rem;
+    margin: 1rem 1rem;
+
+}
+
+.features-section .qualities .quality h3{
+    font-size: 1rem;
+}
+
+.features-section .qualities .quality:hover {
+    border: 2px solid #6e0aef;
+    cursor: pointer;
+}
+
+.qualities .quality i {
+    font-size: 2rem;
+    color: #6e0aef;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+
+.qualities .quality h3 {
+    font-size: 1.1rem;
+    margin-top: 0.8rem;
+}
+
+.qualities .quality p {
+    font-size: 1rem;
+    text-align: center;
+    color: #4e547e;
+    margin-top: 1rem;
+
+}
+
+/*  Phones section */
+.newest-phones {
+    padding-top: 3rem;
+}
+
+.newest-phones .phones-section {
+    max-width: 1366px;
+    margin: 0 auto;
+    padding: 0 5rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.phones-section h4 {
+    color: #6e0aef;
+    font-size: 1.6rem;
+    margin-bottom: 2rem;
+}
+
+.phones-section .phones {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: flex-start;
+}
+
+.phones .phone {
+    margin: 2rem 0;
+    max-width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.phone img {
+    margin-bottom: 1rem;
+}
+
+.phone img:hover {
+    scale: 1.1;
+    cursor: pointer;
+}
+
+.phone h3 {
+    font-size: 1.6rem;
+}
+
+.phones-section button {
+    width: 10rem;
+    margin-bottom: 1rem;
+    align-self: center;
+    border-radius: 4rem;
+    padding: 0.6rem 0.1rem;
+    color: white;
+    background-color: #6e0aef;
+    border: none;
+}
+
+/* Footer */
+footer {
+    background-color: #f8f7fc;
+    height: 10vh;
+    margin-top: 5rem;
+    display: flex;
+}
+
+.footer-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 1366px;
+    margin: 0 auto;
+    padding: 0 10rem;
+}
+
+.footer-section p {
+    font-size: 1.2rem;
+    flex: 1;
+}
+
+.footer-section .socials {
+    flex: 1;
+}
+
+.footer-section .socials i {
+    padding: 0 0.5rem;
+    font-size: 1rem;
+}
+
+.footer-section .socials i:hover {
+    color: #6e0aef;
+    cursor: pointer;
+}
+
+@media (max-width: 1010px) {
+
+    .features-section .qualities {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+
+@media (max-width: 775px) {
+
+    * {
+        text-align: center;
+    }
+    .hero img {
+        display: none;
+    }
+    .hero-section {
+        align-items: center;
+        padding: 1rem 0;
+        width: 50%;
+    }
+}
+
+@media (max-width: 647px) {
+    footer {
+        height: 13vh;
+    }
+}
+
+@media (max-width: 610px) {
+    .phones-section {
+        align-items: center;
+    }
+    .phones-section .phones {
+        grid-template-columns: 1fr 1fr;
+    }
+    nav .fa-bars{
+        display: block;
+        font-size: 1.5rem;
+    }
+    nav .nav-items{
+        position: absolute;
+        left: 0;
+        top: 10vh;
+        display: none;
+        flex-direction: column;
+        width: 100%;
+        background-color: #6e0aef;
+        padding: 2rem 0;
+        }
+        nav .nav-items.active{
+            display: flex;
+        }
+
+        nav .nav-items .nav-item{
+            margin: 0.8rem 0;
+        }
+        nav .nav-items .nav-item a{
+            color: white;
+        }
+}
+
+@media (max-width: 538px) {
+    .hero-section .content h1 {
+        font-size: 1rem;
+    }
+
+    .phones-section .phones {
+        grid-template-columns: 1fr;
+    }
+}
